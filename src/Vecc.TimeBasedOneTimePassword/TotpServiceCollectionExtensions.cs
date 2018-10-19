@@ -1,7 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Vecc.TimeBasedOneTimePassword;
 using Vecc.TimeBasedOneTimePassword.Internal;
 
-namespace Vecc.TimeBasedOneTimePassword
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class TotpServiceCollectionExtensions
     {
